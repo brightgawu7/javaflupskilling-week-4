@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Javaflupskilling-week-4
+  profiles:
+    active: dev
+springdoc:
+  swagger-ui:
+    path: /
+
+hello:
+  message: "Hello Bright Edem"
+
+
+#---
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#
+#hello:
+#  message: "Hello Bright Edem From Dev"
